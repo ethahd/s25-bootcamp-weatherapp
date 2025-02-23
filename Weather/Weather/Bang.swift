@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Bang.swift
 //  Weather
 //
 //  Created by Ethan AK on 2/23/25.
@@ -7,14 +7,12 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Bang: View {
     var body: some View {
-        HStack{
-            Text("hurting")
-        }
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    ContentView()
+    Bang()
 }

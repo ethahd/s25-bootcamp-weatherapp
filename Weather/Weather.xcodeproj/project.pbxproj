@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		288D1BA52D6B95E900E2D266 /* HourlyForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288D1BA42D6B95E900E2D266 /* HourlyForecastView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		288D1B842D6AE3CB00E2D266 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		288D1B722D6AE3C900E2D266 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		288D1B832D6AE3CB00E2D266 /* WeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		288D1B8D2D6AE3CB00E2D266 /* WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		288D1BA42D6B95E900E2D266 /* HourlyForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyForecastView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		288D1B692D6AE3C900E2D266 = {
 			isa = PBXGroup;
 			children = (
+				288D1BA42D6B95E900E2D266 /* HourlyForecastView.swift */,
 				288D1B742D6AE3C900E2D266 /* Weather */,
 				288D1B862D6AE3CB00E2D266 /* WeatherTests */,
 				288D1B902D6AE3CB00E2D266 /* WeatherUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				288D1BA52D6B95E900E2D266 /* HourlyForecastView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
